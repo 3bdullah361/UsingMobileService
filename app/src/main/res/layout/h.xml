@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<com.alzaem1416.view.title.TitleBar android:id="@+id/theTitleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/theTitleBar">
+    <LinearLayout style="@style/AlertDialog.AppCompat">
+        <ImageView android:gravity="center_horizontal" android:id="@+id/addHomeWorkTopImage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:src="@color/colorAccent" />
+        <!--<com.alzaem1416.settings.SettingsTitleText android:id="@id/addHomeWorkHomeTitle" android:text="Settings" style="@style/settingsTitle" />-->
+        <!--<com.alzaem1416.settings.DrillDownSettingView android:id="@id/addHomeWorkHomeDD" android:background="@drawable/item_selector_single" app:icon="@drawable/icon_home" style="@style/settingsSelection" />-->
+        <!--<com.alzaem1416.settings.SettingsTitleText android:id="@id/addHomeWorkWorkTitle" android:layout_marginTop="20.0dip" android:text="Settings" style="@style/settingsTitle" />-->
+        <!--<com.alzaem1416.settings.DrillDownSettingView android:id="@id/addHomeWorkWorkDD" android:background="@drawable/item_selector_single" app:icon="@drawable/icon_work" style="@style/settingsSelection" />-->
+    </LinearLayout>
+</ScrollView>
+<ImageView android:layout_width="fill_parent" android:layout_height="6.0dip" android:src="@color/colorPrimary" android:scaleType="fitXY" android:layout_below="@id/theTitleBar" />
+</RelativeLayout>
